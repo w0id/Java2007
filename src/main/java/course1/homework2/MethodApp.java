@@ -3,15 +3,15 @@ package course1.homework2;
 public class MethodApp {
 
     public static void main(String[] args) {
-        System.out.println(checkMultiplication(5,4));
+        System.out.println(checkSumm(15,4));
         checkPositive(-2);
         System.out.println(checkNegative(45));
         printString("Пишем текст %d-й раз", 12);
-        System.out.println(checkLeapYear(404));
+        System.out.println(checkLeapYear(204));
     }
 
-    public static boolean checkMultiplication(int n1, int n2) {
-        int result = n1 * n2;
+    public static boolean checkSumm(int n1, int n2) {
+        int result = n1 + n2;
         return result > 10 && result <= 20;
     }
 
