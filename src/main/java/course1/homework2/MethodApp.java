@@ -7,18 +7,12 @@ public class MethodApp {
         checkPositive(-2);
         System.out.println(checkNegative(45));
         printString("Пишем текст %d-й раз", 12);
-        System.out.println(checkLeapYear(2021));
-
+        System.out.println(checkLeapYear(404));
     }
 
     public static boolean checkMultiplication(int n1, int n2) {
         int result = n1 * n2;
-
-        if (result > 10 && result <=20) {
-            return true;
-        }else{
-            return false;
-        }
+        return result > 10 && result <= 20;
     }
 
     public static void checkPositive(int number) {
@@ -30,11 +24,7 @@ public class MethodApp {
     }
 
     public static boolean checkNegative(int number) {
-        if (number < 0) {
-            return true;
-        }else{
-            return false;
-        }
+        return number < 0;
     }
 
     public static void printString(String string, int iteration) {
@@ -45,19 +35,10 @@ public class MethodApp {
     }
 
     public static boolean checkLeapYear(int year) {
-        switch (year % 100) {
-            case 0: {
-                if ((year % 400) == 0 ) {
-                    return true;
-                }
-                break;
-            }
-            default: {
-                if ((year % 4) == 0) {
-                    return true;
-                }
-            }
+        if (year % 100 == 0) {
+            return (year % 400) == 0;
+        } else {
+            return (year % 4) == 0;
         }
-        return false;
     }
 }
