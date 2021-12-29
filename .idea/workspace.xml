@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Урок 2" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="домашка 2&#10;Немного оптимизировал">
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson3/ArrayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson3/LogicApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson3/StringApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson3/TwoDimArrayApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/CycleApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/DemoApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/MethodApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/PrintUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/SwitchApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/lesson2/WhileApp.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson1-2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,11 +58,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.DemoApp">
-    <configuration name="CycleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.CycleApp" />
+  <component name="RunManager" selected="Application.HomeworkApp3">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="PATTERN" value="course1.homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,9 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeworkApp3" />
         <item itemvalue="Application.DemoApp" />
         <item itemvalue="Application.WhileApp" />
-        <item itemvalue="Application.CycleApp" />
         <item itemvalue="Application.SwitchApp" />
         <item itemvalue="Application.MethodApp" />
       </list>
