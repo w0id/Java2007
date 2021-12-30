@@ -1,11 +1,13 @@
 package course1.homework3;
 import java.util.Arrays;
 import java.util.Random;
+import java.lang.Math;
 
 
 public class HomeworkApp3 {
 
     public static void main(String[] args) {
+        Random random = new Random();
         /*
           1. Задать целочисленный массив, состоящий из элементов 0 и 1. Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ].
           С помощью цикла и условия заменить 0 на 1, 1 на 0;
@@ -46,10 +48,21 @@ public class HomeworkApp3 {
          * 7. ** Написать метод, в который передается не пустой одномерный целочисленный массив,
          * метод должен вернуть true, если в массиве есть место, в котором сумма левой и правой части массива равны.
          */
-        Random random = new Random();
         int[] summArray = random.ints(10,0, 15).toArray();
         System.out.println(Arrays.toString(summArray));
         System.out.println(arrayItemsSymmetrySumm(summArray));
+        System.out.println();
+        /*
+         * 8. *** Написать метод, которому на вход подается одномерный массив и число n (может быть положительным, или отрицательным),
+         * при этом метод должен сместить все элементы массива на n позиций.
+         * Элементы смещаются циклично. Для усложнения задачи нельзя пользоваться вспомогательными массивами.
+         * Примеры: [ 1, 2, 3 ] при n = 1 (на один вправо) -> [ 3, 1, 2 ];
+         * [ 3, 5, 6, 1] при n = -2 (на два влево) -> [ 6, 1, 3, 5 ].
+         * При каком n в какую сторону сдвиг можете выбирать сами.
+         */
+        int[] shiftArray = random.ints(5,0,9).toArray();
+        System.out.println(Arrays.toString(shiftArray));
+        System.out.println(Arrays.toString(shiftArrayItems(shiftArray, -3)));
     }
 
     public static void reverseArrayItems() {
@@ -65,7 +78,7 @@ public class HomeworkApp3 {
     public static void hundredItemsArray() {
         int[] array = new int[100];
         for(int i = 0; i < array.length; i++) {
-            array[i] = i+1;
+            array[i] = i + 1;
         }
         System.out.println(Arrays.toString(array));
     }
@@ -122,5 +135,29 @@ public class HomeworkApp3 {
             }
         }
         return false;
+    }
+
+    public static int[] shiftArrayItems(int[] array, int shift) {
+        if(shift < 0) {
+            for (int i = 0; i < Math.abs(shift); i++) {
+                int first = array[0];
+                for (int j = 0; j < array.length - 1; j++) {
+                    array[j] = array[j + 1];
+                }
+                array[array.length - 1] = first;
+            }
+            return array;
+        } else if(shift > 0) {
+            for (int i = 0; i < shift; i++) {
+                int last = array[array.length - 1];
+                for (int j = array.length - 1; j > 0; j--) {
+                    array[j] = array[j - 1];
+                }
+                array[0] = last;
+            }
+            return array;
+        } else {
+            return array;
+        }
     }
 }

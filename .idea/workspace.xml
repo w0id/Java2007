@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3">
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" afterDir="false" />
     </list>
@@ -186,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640811576313</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Домашка 3&#10;+ 6*, 7*">
+      <created>1640883618136</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640883618136</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +213,7 @@
     <MESSAGE value="Домашка 1" />
     <MESSAGE value="Урок 2" />
     <MESSAGE value="Домашка 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашка 3" />
+    <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 3&#10;+ 6*, 7*" />
   </component>
 </project>
