@@ -85,6 +85,7 @@ public class HomeworkApp3 {
 
     public static void multiplicateArrayItems(){
         int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        System.out.println(Arrays.toString(array));
         for(int i = 0; i < array.length; i++) {
 //            array[i] = array[i] < 6 ? array[i] * 2 : array[i];
             if(array[i] < 6) {
@@ -110,7 +111,9 @@ public class HomeworkApp3 {
     }
 
     public  static void maxnminArrayItems() {
-        int[] array = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
+        Random random = new Random();
+        int[] array = random.ints(12, 0, 19).toArray();
+        System.out.println(Arrays.toString(array));
         System.out.println("Минимальный элемент: " + Arrays.stream(array).min().getAsInt());
         System.out.println("Максимальный элемент: " + Arrays.stream(array).max().getAsInt());
     }
@@ -120,20 +123,17 @@ public class HomeworkApp3 {
         int rightIndex = 0;
         int left = array[leftIndex];
         int right = array[array.length - 1 - rightIndex];
-        for (int item:array) {
+        do {
             if (left > right) {
                 rightIndex++;
                 right += array[array.length - 1 - rightIndex];
-            } else if (left < right){
+            } else if (left < right) {
                 leftIndex++;
                 left += array[leftIndex];
             } else {
                 return true;
             }
-            if(leftIndex == array.length - 1 - rightIndex){
-                break;
-            }
-        }
+        } while (leftIndex != array.length - 1 - rightIndex);
         return false;
     }
 
@@ -141,18 +141,14 @@ public class HomeworkApp3 {
         if(shift < 0) {
             for (int i = 0; i < Math.abs(shift); i++) {
                 int first = array[0];
-                for (int j = 0; j < array.length - 1; j++) {
-                    array[j] = array[j + 1];
-                }
+                System.arraycopy(array, 1, array, 0, array.length - 1);
                 array[array.length - 1] = first;
             }
             return array;
         } else if(shift > 0) {
             for (int i = 0; i < shift; i++) {
                 int last = array[array.length - 1];
-                for (int j = array.length - 1; j > 0; j--) {
-                    array[j] = array[j - 1];
-                }
+                System.arraycopy(array, 0, array, 1, array.length - 1);
                 array[0] = last;
             }
             return array;
