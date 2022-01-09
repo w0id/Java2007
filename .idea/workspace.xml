@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Урок 2" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,10 +25,26 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson1-2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="w0id" />
+        <option name="repository" value="Java2007" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -45,11 +63,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.DemoApp">
-    <configuration name="CycleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.CycleApp" />
+  <component name="RunManager" selected="Application.HomeworkApp3">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
@@ -61,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="PATTERN" value="course1.homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,9 +133,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeworkApp3" />
         <item itemvalue="Application.DemoApp" />
         <item itemvalue="Application.WhileApp" />
-        <item itemvalue="Application.CycleApp" />
         <item itemvalue="Application.SwitchApp" />
         <item itemvalue="Application.MethodApp" />
       </list>
@@ -160,7 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1640546173263</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Домашка 3">
+      <created>1640811576313</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1640811576313</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Домашка 3&#10;+ 6*, 7*">
+      <created>1640883618136</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1640883618136</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Домашка 3&#10;+ 6*, 7*&#10;+ 8*">
+      <created>1640889250094</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640889250094</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
+      <created>1641287560857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1641287560857</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,6 +225,10 @@
     <MESSAGE value="init" />
     <MESSAGE value="Домашка 1" />
     <MESSAGE value="Урок 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Урок 2" />
+    <MESSAGE value="Домашка 3" />
+    <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
+    <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
+    <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
   </component>
 </project>
