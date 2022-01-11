@@ -112,7 +112,7 @@ public class HomeworkApp3 {
 
     public  static void maxnminArrayItems() {
         Random random = new Random();
-        int[] array = random.ints(12, -19, 19).toArray();
+        int[] array = random.ints(12, 0, 19).toArray();
         System.out.println(Arrays.toString(array));
         System.out.println("Минимальный элемент: " + Arrays.stream(array).min().getAsInt());
         System.out.println("Максимальный элемент: " + Arrays.stream(array).max().getAsInt());
