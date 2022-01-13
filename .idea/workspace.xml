@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Java2007.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 4&#10;+ 3*">
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641287560857</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Домашка 4&#10;+ 3*">
+      <created>1642056667548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642056667548</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +236,7 @@
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+    <MESSAGE value="Домашка 4&#10;+ 3*" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 4&#10;+ 3*" />
   </component>
 </project>

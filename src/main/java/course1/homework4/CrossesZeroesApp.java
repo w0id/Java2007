@@ -9,10 +9,10 @@ public class CrossesZeroesApp {
     public static char[][] map;
 
     //Размер поля
-    public static final int SIZE = 3;
+    public static final int SIZE = 5;
 
     //Точек для победы
-    public static final int DOTS_TO_WIN = 3;
+    public static final int DOTS_TO_WIN = 4;
 
     //Описание точек
     public static final char DOT_EMPTY = '*';
@@ -44,7 +44,7 @@ public class CrossesZeroesApp {
             System.out.print(i + " ");
         }
         System.out.println();
-        //пишем строни мапы
+        //пишем строим мапы
         for (int i = 0; i < map.length; i++) {
             //выводим номер строки
             System.out.print((i + 1) + " ");
