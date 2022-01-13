@@ -100,7 +100,6 @@ public class CrossesZeroesApp {
      * @return true, если выиграл
      */
     public static boolean checkWin(char symbol) {
-        List<Boolean> result = new ArrayList<>();
         String line;
         String column;
         String diagonalLeftRight = "";
@@ -113,17 +112,16 @@ public class CrossesZeroesApp {
                 line += map[i][j];
                 column += map[j][i];
             }
-            result.add(checkMatch(line, symbol));
-            result.add(checkMatch(column, symbol));
+            if (checkMatch(line, symbol)) return true;
+            if (checkMatch(column, symbol)) return true;
         }
         //Проверяем диагонали
         for (int i = 0; i < SIZE; i++) {
             diagonalLeftRight += map[i][i];
             diagonalRightLeft += map[i][SIZE - 1 - i];
         }
-        result.add(checkMatch(diagonalLeftRight, symbol));
-        result.add(checkMatch(diagonalRightLeft, symbol));
-        return result.contains(true);
+        if (checkMatch(diagonalLeftRight, symbol)) return true;
+        return checkMatch(diagonalRightLeft, symbol);
     }
 
     /**
