@@ -2,6 +2,8 @@ package course1.homework4;
 
 import java.util.*;
 import java.lang.String;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CrossesZeroesApp {
 
@@ -111,17 +113,33 @@ public class CrossesZeroesApp {
                 line += map[i][j];
                 column += map[j][i];
             }
-            result.add(line.chars().filter(x -> x == symbol).count() == DOTS_TO_WIN);
-            result.add(column.chars().filter(x -> x == symbol).count() == DOTS_TO_WIN);
+            result.add(checkMatch(line, symbol));
+            result.add(checkMatch(column, symbol));
         }
         //Проверяем диагонали
         for (int i = 0; i < SIZE; i++) {
             diagonalLeftRight += map[i][i];
             diagonalRightLeft += map[i][SIZE - 1 - i];
         }
-        result.add(diagonalLeftRight.chars().filter(x -> x == symbol).count() == DOTS_TO_WIN);
-        result.add(diagonalRightLeft.chars().filter(x -> x == symbol).count() == DOTS_TO_WIN);
+        result.add(checkMatch(diagonalLeftRight, symbol));
+        result.add(checkMatch(diagonalRightLeft, symbol));
         return result.contains(true);
+    }
+
+    /**
+     *Проверка на соответствие выигрышному числу количества одинаковых символов (фишек) в строке/столбце/диагонали, идущих подряд
+     * @param concat строка/столбех/диагональ
+     * @param symbol Фишка игрока
+     * @return true, если фишек больше или равно количеству, необходимому для победы.
+     */
+    public static boolean checkMatch(String concat, char symbol) {
+        Matcher pattern = Pattern.compile("(.)\\1+").matcher(concat);
+        while (pattern.find()) {
+            if (pattern.group().chars().filter(x -> x == symbol).count() >= DOTS_TO_WIN) {
+                return true;
+            }
+        }
+        return false;
     }
 
     /**
