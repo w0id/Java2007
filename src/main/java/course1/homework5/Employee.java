@@ -1,5 +1,8 @@
 package course1.homework5;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class Employee {
     private String fullName;
     private String position;
@@ -11,10 +14,35 @@ public class Employee {
     public Employee(String fullName, String position, String email, String phone, int salary, int age) {
         this.fullName = fullName;
         this.position = position;
-        this.email = email;
-        this.phone = phone;
-        this.salary = salary;
-        this.age = age;
+        Matcher match = Pattern.compile("\\w{2,}-\\w{1,}\\@\\w{2,}\\.[a-z]{2,9}|\\w{2,}\\@\\w{2,}\\.[a-z]{2,9}").matcher(email);
+        match.find();
+        try {
+            this.email = match.group();
+        } catch (IllegalStateException e) {
+            System.out.println("Email: " + email + " - неверный формат");
+            System.out.println();
+        }
+        match.reset();
+        match = Pattern.compile("(\\+)(\\d{11})").matcher(phone);
+        match.find();
+        try {
+            this.phone = match.group();
+        } catch (IllegalStateException e) {
+            System.out.println("Телефон: " + phone + " - неверный формат");
+            System.out.println();
+        }
+        if (salary > 0) {
+            this.salary = salary;
+        } else {
+            System.out.println("Зарплата: " + salary + " - Ошибка в данных");
+            System.out.println();
+        }
+        if (age > 0) {
+            this.age = age;
+        } else {
+            System.out.println("Возраст: " + age + " - Ошибка в данных");
+            System.out.println();
+        }
     }
 
     public String getFullName() {
@@ -38,7 +66,14 @@ public class Employee {
     }
 
     public void setEmail(String email) {
-        this.email = email;
+        Matcher match = Pattern.compile("\\w{2,}-\\w{1,}\\@\\w{2,}\\.[a-z]{2,9}|\\w{2,}\\@\\w{2,}\\.[a-z]{2,9}").matcher(email);
+        match.find();
+        try {
+            this.email = match.group();
+        } catch (IllegalStateException e) {
+            System.out.println("Email: " + email + " - неверный формат");
+            System.out.println();
+        }
     }
 
     public String getPhone() {
@@ -46,7 +81,14 @@ public class Employee {
     }
 
     public void setPhone(String phone) {
-        this.phone = phone;
+        Matcher match = Pattern.compile("(\\+)(\\d{11})").matcher(phone);
+        match.find();
+        try {
+            this.phone = match.group();
+        } catch (IllegalStateException e) {
+            System.out.println("Телефон: " + phone + " - неверный формат");
+            System.out.println();
+        }
     }
 
     public int getSalary() {
@@ -54,7 +96,12 @@ public class Employee {
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
+        if (salary > 0) {
+            this.salary = salary;
+        } else {
+            System.out.println("Зарплата: " + salary + " - Ошибка в данных");
+            System.out.println();
+        }
     }
 
     public int getAge() {
@@ -62,7 +109,12 @@ public class Employee {
     }
 
     public void setAge(int age) {
-        this.age = age;
+        if (age > 0) {
+            this.age = age;
+        } else {
+            System.out.println("Возраст: " + age + " - Ошибка в данных");
+            System.out.println();
+        }
     }
 
     public void employeeInfo() {
