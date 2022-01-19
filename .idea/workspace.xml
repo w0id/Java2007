@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
-      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework3/HomeworkApp3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Cabrio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/ExampleApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/RentApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Van.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course1/homework2/MethodApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +55,9 @@
       </RepoCoordinatesHolder>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -65,26 +77,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.HomeworkApp3">
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+  <component name="RunManager" selected="Application.RentApp">
+    <configuration name="ExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson6.ExampleApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.homework3.*" />
+          <option name="PATTERN" value="course1.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +97,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson6.RentApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HomeworkApp3" />
-        <item itemvalue="Application.DemoApp" />
+        <item itemvalue="Application.RentApp" />
+        <item itemvalue="Application.ExampleApp" />
         <item itemvalue="Application.WhileApp" />
         <item itemvalue="Application.SwitchApp" />
         <item itemvalue="Application.MethodApp" />
@@ -219,7 +231,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
