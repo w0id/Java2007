@@ -37,7 +37,7 @@ public class Animal {
                 if (distance < getMaxRunDistance()) {
                     System.out.println(getName() + " пробежал " + distance + " метров");
                 } else {
-                    System.out.println(getName() + " пробежал " + getMaxRunDistance() + " метров и сдох от изнеможения");
+                    System.out.println(getName() + " хотел пробежать " + distance + " метров, но пробежав " + getMaxRunDistance() + " метров, сдох от изнеможения");
                 }
             }
         } else {
@@ -51,7 +51,7 @@ public class Animal {
                 if (distance < getMaxSwimDistance()) {
                     System.out.println(getName() + " проплыл " + distance + " метров");
                 } else {
-                    System.out.println(getName() + " проплыл " + getMaxSwimDistance() + " метров и плавно пошел ко дну");
+                    System.out.println(getName() + " собрался проплыть " + distance + " метров, но проплыл всего лишь " + getMaxSwimDistance() + " метров и плавно пошел ко дну");
                 }
             } else {
                 System.out.println(getName() + " с разгону нырнул в воду, но так как плавать не умел, теперь он кормит рыб");

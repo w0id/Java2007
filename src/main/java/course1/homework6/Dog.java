@@ -1,6 +1,6 @@
 package course1.homework6;
 
-public class Dog extends Animal {
+public class Dog extends Animal{
 
     protected int maxRunDistance = 500;
     protected int maxSwimDistance = 10;
