@@ -8,7 +8,6 @@ public class AnimalsActionApp {
     public static void main(String[] args) {
         int dogsCount = 0;
         int catsCount = 0;
-        int total = 0;
         List<Animal> listAnimals = new ArrayList<>();
         listAnimals.add(new Dog("Бобик"));
         listAnimals.add(new Dog("Палкан"));
@@ -27,7 +26,7 @@ public class AnimalsActionApp {
 
         System.out.println("Собак стартануло: " + dogsCount);
         System.out.println("Кошек стартануло: " + catsCount);
-        System.out.println("Всего животных стартануло: " + (dogsCount + catsCount));
+        System.out.println("Всего животных стартануло: " + animals.length);
         System.out.println();
 
         animals[0].run(300);
