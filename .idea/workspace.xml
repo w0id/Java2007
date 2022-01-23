@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Cabrio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/ExampleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/RentApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Transport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Van.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Invention.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson7/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson7/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson7/GasStation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson7/StringApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/course1/homework2/MethodApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/lesson6/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/lesson6/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/lesson6/RentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/RentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/lesson6/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/lesson6/Transport.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +71,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -77,13 +81,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.RentApp">
-    <configuration name="ExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson6.ExampleApp" />
+  <component name="RunManager" selected="Application.StringApp">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson7.App" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson6.*" />
+          <option name="PATTERN" value="course1.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.MethodApp" />
+    <configuration name="ExampleApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson6.ExampleApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="PATTERN" value="course1.lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.SwitchApp" />
+    <configuration name="StringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson7.StringApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="PATTERN" value="course1.lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringApp" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.RentApp" />
         <item itemvalue="Application.ExampleApp" />
         <item itemvalue="Application.WhileApp" />
-        <item itemvalue="Application.SwitchApp" />
-        <item itemvalue="Application.MethodApp" />
       </list>
     </recent_temporary>
   </component>
@@ -241,5 +245,16 @@
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
     <option name="LAST_COMMIT_MESSAGE" value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/course1/lesson6/Transport.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

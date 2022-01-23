@@ -33,12 +33,22 @@ public class RentApp {
         System.out.println();
         System.out.println();
 
-        Transport[] transports = {car, cabrio, van};
+//        Transport[] transports = {car, cabrio, van};
+//
+//        for (Transport transport : transports) {
+//            transport.printName();
+//            System.out.println(transport);
+//        }
+//        System.out.println(Arrays.toString(transports));
+
+        Transport t1 = new Car("kia", 2010);
+        Transport t2 = new Cabrio("Chrysler", 1998, true);
+        Transport t3 = new Bike(2);
+
+        Transport[] transports = {t1, t2, t3};
 
         for (Transport transport : transports) {
-            transport.printName();
-            System.out.println(transport);
+            transport.printInventionDate();
         }
-        System.out.println(Arrays.toString(transports));
     }
 }
