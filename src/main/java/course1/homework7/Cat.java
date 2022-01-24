@@ -25,7 +25,7 @@ public class Cat {
                     .append(getName())
                     .append(" поел и он сыт");
             System.out.println(feedingInfo);
-        } else {
+        } else if (getAppetite() > 0) {
             int amountToFill = getAppetite() - plate.getFood();
             feedingInfo.append("Коту ")
                     .append(getName())
@@ -36,6 +36,11 @@ public class Cat {
             System.out.println(feedingInfo);
             plate.fillPlate(amountToFill);
             eat(plate);
+        } else {
+            feedingInfo.append("У кота ")
+                    .append(getName())
+                    .append(" неверное значение аппетита");
+            System.out.println(feedingInfo);
         }
     }
 
