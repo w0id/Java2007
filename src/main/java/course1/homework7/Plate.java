@@ -3,7 +3,7 @@ package course1.homework7;
 public class Plate {
     private int food;
     public Plate(int food) {
-        if (food > 0) {
+        if (food >= 0) {
             this.food = food;
         } else {
             this.food = 0;
@@ -11,7 +11,7 @@ public class Plate {
     }
 
     public boolean decreaseFood(int n) {
-        if (food >= n && n > 0) {
+        if (food >= n && n >= 0) {
             food -= n;
             return true;
         }

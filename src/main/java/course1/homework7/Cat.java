@@ -25,7 +25,7 @@ public class Cat {
                     .append(getName())
                     .append(" поел и он сыт");
             System.out.println(feedingInfo);
-        } else if (getAppetite() > 0) {
+        } else if (getAppetite() >= 0) {
             int amountToFill = getAppetite() - plate.getFood();
             feedingInfo.append("Коту ")
                     .append(getName())
