@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" afterDir="false" />
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
@@ -26,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="course1.lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +69,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RunManager" selected="Application.EmployeeApp">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
   <component name="RunManager" selected="Application.CrossesZeroesApp">
     <configuration name="CrossesZeroesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework4.CrossesZeroesApp" />
@@ -80,6 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework5.EmployeeApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework5.*" />
     <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
       <module name="Java2007" />
@@ -134,6 +146,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.CrossesZeroesApp" />
         <item itemvalue="Application.HomeworkApp3" />
         <item itemvalue="Application.DemoApp" />
@@ -207,6 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641287560857</updated>
     </task>
+    <task id="LOCAL-00009" summary="course1.lesson5">
+      <created>1642361398318</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642361398318</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <task id="LOCAL-00009" summary="Домашка 4&#10;+ 3*">
       <created>1642056667548</created>
       <option name="number" value="00009" />
@@ -241,7 +262,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
@@ -251,6 +271,19 @@
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+    <MESSAGE value="course1.lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="course1.lesson5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/course1/homework5/EmployeeApp.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <MESSAGE value="Домашка 4&#10;+ 3*" />
     <MESSAGE value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
     <option name="LAST_COMMIT_MESSAGE" value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
