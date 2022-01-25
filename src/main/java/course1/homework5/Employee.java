@@ -14,23 +14,8 @@ public class Employee {
     public Employee(String fullName, String position, String email, String phone, int salary, int age) {
         this.fullName = fullName;
         this.position = position;
-        Matcher match = Pattern.compile("\\w{2,}-\\w{1,}\\@\\w{2,}\\.[a-z]{2,9}|\\w{2,}\\@\\w{2,}\\.[a-z]{2,9}").matcher(email);
-        match.find();
-        try {
-            this.email = match.group();
-        } catch (IllegalStateException e) {
-            System.out.println("Email: " + email + " - неверный формат");
-            System.out.println();
-        }
-        match.reset();
-        match = Pattern.compile("(\\+)(\\d{11})").matcher(phone);
-        match.find();
-        try {
-            this.phone = match.group();
-        } catch (IllegalStateException e) {
-            System.out.println("Телефон: " + phone + " - неверный формат");
-            System.out.println();
-        }
+        this.email = validateEmail(email);
+        this.phone = validatePhone(phone);
         if (salary > 0) {
             this.salary = salary;
         } else {
@@ -44,6 +29,8 @@ public class Employee {
             System.out.println();
         }
     }
+
+
 
     public String getFullName() {
         return fullName;
@@ -65,15 +52,32 @@ public class Employee {
         return email;
     }
 
-    public void setEmail(String email) {
+    private String validateEmail(String email) {
         Matcher match = Pattern.compile("\\w{2,}-\\w{1,}\\@\\w{2,}\\.[a-z]{2,9}|\\w{2,}\\@\\w{2,}\\.[a-z]{2,9}").matcher(email);
         match.find();
         try {
-            this.email = match.group();
+            return match.group();
         } catch (IllegalStateException e) {
             System.out.println("Email: " + email + " - неверный формат");
             System.out.println();
         }
+        return null;
+    }
+
+    private String validatePhone(String phone) {
+        Matcher match = Pattern.compile("(\\+)(\\d{11})").matcher(phone);
+        match.find();
+        try {
+            return match.group();
+        } catch (IllegalStateException e) {
+            System.out.println("Телефон: " + phone + " - неверный формат");
+            System.out.println();
+        }
+        return null;
+    }
+
+    public void setEmail(String email) {
+        this.email = validateEmail(email);
     }
 
     public String getPhone() {
@@ -81,14 +85,7 @@ public class Employee {
     }
 
     public void setPhone(String phone) {
-        Matcher match = Pattern.compile("(\\+)(\\d{11})").matcher(phone);
-        match.find();
-        try {
-            this.phone = match.group();
-        } catch (IllegalStateException e) {
-            System.out.println("Телефон: " + phone + " - неверный формат");
-            System.out.println();
-        }
+        this.phone = validatePhone(phone);
     }
 
     public int getSalary() {
