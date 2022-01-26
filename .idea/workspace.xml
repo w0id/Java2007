@@ -7,6 +7,7 @@
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" afterDir="false" />
+    </list>
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
@@ -69,10 +70,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.EmployeeApp">
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
-  <component name="RunManager" selected="Application.CrossesZeroesApp">
+  <component name="RunManager" selected="Application.AdvCounterApp">
+    <configuration name="AdvCounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework8.AdvCounterApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrossesZeroesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework4.CrossesZeroesApp" />
       <module name="Java2007" />
@@ -86,18 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.homework5.EmployeeApp" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.homework5.*" />
     <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework5.EmployeeApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,40 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.SwitchApp" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.WhileApp" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EmployeeApp" />
+        <item itemvalue="Application.AdvCounterApp" />
         <item itemvalue="Application.CrossesZeroesApp" />
+        <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.HomeworkApp3" />
         <item itemvalue="Application.DemoApp" />
-        <item itemvalue="Application.WhileApp" />
-        <item itemvalue="Application.SwitchApp" />
       </list>
     </recent_temporary>
   </component>
