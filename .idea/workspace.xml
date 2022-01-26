@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson8/CounterApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson8/MyWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course1/lesson8/TestFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" afterDir="false" />
-    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,9 @@
       </RepoCoordinatesHolder>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -63,16 +66,27 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="Application.EmployeeApp">
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
-  <component name="RunManager" selected="Application.CrossesZeroesApp">
+  <component name="RunManager" selected="Application.TestFrame">
+    <configuration name="CounterApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson8.CounterApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.lesson8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrossesZeroesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework4.CrossesZeroesApp" />
       <module name="Java2007" />
@@ -92,12 +106,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course1.homework5.*" />
-    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
+    <configuration name="MyWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson8.MyWindow" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.homework3.*" />
+          <option name="PATTERN" value="course1.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,25 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.SwitchApp" />
+    <configuration name="TestFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson8.TestFrame" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WhileApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.WhileApp" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.lesson2.lesson2.*" />
+          <option name="PATTERN" value="course1.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,12 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestFrame" />
+        <item itemvalue="Application.CounterApp" />
+        <item itemvalue="Application.MyWindow" />
         <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.CrossesZeroesApp" />
-        <item itemvalue="Application.HomeworkApp3" />
-        <item itemvalue="Application.DemoApp" />
-        <item itemvalue="Application.WhileApp" />
-        <item itemvalue="Application.SwitchApp" />
       </list>
     </recent_temporary>
   </component>
@@ -163,6 +157,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640197992542</updated>
+      <workItem from="1643222576081" duration="726000" />
+      <workItem from="1643223407780" duration="1789000" />
+      <workItem from="1643225629412" duration="3638000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640199585225</created>
@@ -220,14 +217,6 @@
       <option name="project" value="LOCAL" />
       <updated>1641287560857</updated>
     </task>
-    <task id="LOCAL-00009" summary="course1.lesson5">
-      <created>1642361398318</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1642361398318</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <task id="LOCAL-00009" summary="Домашка 4&#10;+ 3*">
       <created>1642056667548</created>
       <option name="number" value="00009" />
@@ -251,6 +240,9 @@
     </task>
     <option name="localTasksCounter" value="12" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -284,8 +276,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <MESSAGE value="Домашка 4&#10;+ 3*" />
-    <MESSAGE value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
   </component>
 </project>
