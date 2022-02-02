@@ -8,6 +8,15 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework7/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework7/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework7/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework7/Plate.java" afterDir="false" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 6&#10;Немного переделал и добавил подсчет животин">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" afterDir="false" />
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework4/CrossesZeroesApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -28,6 +38,8 @@
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="course1.lesson7" />
+        <entry key="$PROJECT_DIR$" value="course1.lesson6" />
+        <entry key="$PROJECT_DIR$" value="course1.lesson5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -85,6 +97,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  <component name="RunManager" selected="Application.AnimalsActionApp">
+    <configuration name="AnimalsActionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework6.AnimalsActionApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework6.*" />
+  <component name="RunManager" selected="Application.EmployeeApp">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+  <component name="RunManager" selected="Application.CrossesZeroesApp">
+    <configuration name="CrossesZeroesApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework4.CrossesZeroesApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework5.EmployeeApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework5.*" />
     <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
       <module name="Java2007" />
@@ -98,25 +145,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
-      <module name="Java2007" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="course1.homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework7.MainClass" />
       <module name="Java2007" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="course1.homework7.*" />
+    <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,6 +193,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.AnimalsActionApp" />
+        <item itemvalue="Application.EmployeeApp" />
+        <item itemvalue="Application.CrossesZeroesApp" />
         <item itemvalue="Application.HomeworkApp3" />
         <item itemvalue="Application.DemoApp" />
         <item itemvalue="Application.WhileApp" />
@@ -170,6 +213,11 @@
       <updated>1640197992542</updated>
       <workItem from="1643007576299" duration="1268000" />
       <workItem from="1643008868423" duration="300000" />
+      <workItem from="1642632039758" duration="1597000" />
+      <workItem from="1642660379530" duration="184000" />
+      <workItem from="1642660624141" duration="517000" />
+      <workItem from="1642693023844" duration="1000" />
+      <workItem from="1642748750585" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640199585225</created>
@@ -256,6 +304,51 @@
       <updated>1643008673279</updated>
     </task>
     <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00009" summary="Домашка 6">
+      <created>1642629800302</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642629800302</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Домашка 6&#10;Немного переделал и добавил подсчет животин">
+      <created>1642633319844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642633319844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00009" summary="course1.lesson5">
+      <created>1642361398318</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642361398318</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00009" summary="Домашка 4&#10;+ 3*">
+      <created>1642056667548</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642056667548</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Домашка 4&#10;+ 3*">
+      <created>1642056849623</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642056849623</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;">
+      <created>1642063157109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1642063157109</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +366,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="Домашка 1" />
     <MESSAGE value="Урок 2" />
@@ -283,5 +377,23 @@
     <MESSAGE value="lesson7" />
     <MESSAGE value="Домашка 7" />
     <option name="LAST_COMMIT_MESSAGE" value="Домашка 7" />
+    <MESSAGE value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
+    <MESSAGE value="course1.lesson5" />
+    <option name="LAST_COMMIT_MESSAGE" value="course1.lesson5" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/course1/homework5/EmployeeApp.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <MESSAGE value="Домашка 4&#10;+ 3*" />
+    <MESSAGE value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 4&#10;+ 3* - Немного переделал логику проверки выигрыша.&#10;Был баг: выигрыш засчитывался при &quot;X X X * X&quot;" />
   </component>
 </project>
