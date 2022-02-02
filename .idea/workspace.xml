@@ -4,6 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 7">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework7/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework7/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework7/Plate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework7/Plate.java" afterDir="false" />
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 6&#10;Немного переделал и добавил подсчет животин">
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -33,6 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="course1.lesson7" />
         <entry key="$PROJECT_DIR$" value="course1.lesson6" />
         <entry key="$PROJECT_DIR$" value="course1.lesson5" />
       </map>
@@ -78,6 +83,20 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RunManager" selected="Application.MainClass">
+    <configuration name="Cats" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework7.Cats" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   <component name="RunManager" selected="Application.AnimalsActionApp">
     <configuration name="AnimalsActionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework6.AnimalsActionApp" />
@@ -126,6 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework7.MainClass" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework7.*" />
     <configuration name="HomeworkApp3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework3.HomeworkApp3" />
       <module name="Java2007" />
@@ -167,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.AnimalsActionApp" />
         <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.CrossesZeroesApp" />
@@ -185,6 +211,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640197992542</updated>
+      <workItem from="1643007576299" duration="1268000" />
+      <workItem from="1643008868423" duration="300000" />
       <workItem from="1642632039758" duration="1597000" />
       <workItem from="1642660379530" duration="184000" />
       <workItem from="1642660624141" duration="517000" />
@@ -247,6 +275,35 @@
       <option name="project" value="LOCAL" />
       <updated>1641287560857</updated>
     </task>
+    <task id="LOCAL-00009" summary="lesson7">
+      <created>1642965980137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642965980137</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Домашка 7">
+      <created>1642971889495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642971889495</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Домашка 7">
+      <created>1643008598864</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643008598864</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Домашка 7">
+      <created>1643008673279</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1643008673279</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <task id="LOCAL-00009" summary="Домашка 6">
       <created>1642629800302</created>
       <option name="number" value="00009" />
@@ -317,6 +374,9 @@
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+    <MESSAGE value="lesson7" />
+    <MESSAGE value="Домашка 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 7" />
     <MESSAGE value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
     <option name="LAST_COMMIT_MESSAGE" value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
     <MESSAGE value="course1.lesson5" />
