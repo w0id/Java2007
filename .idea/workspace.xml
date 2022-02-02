@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 6&#10;Немного переделал и добавил подсчет животин">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     <list default="true" id="f36c3b10-83c1-42d5-a708-8bbccbb7282b" name="Changes" comment="Домашка 3&#10;+ 6*, 7**&#10;+ 8***">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course1/homework5/Employee.java" afterDir="false" />
@@ -22,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -29,6 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="course1.lesson6" />
         <entry key="$PROJECT_DIR$" value="course1.lesson5" />
       </map>
     </option>
@@ -50,6 +55,9 @@
       </RepoCoordinatesHolder>
     </option>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -63,12 +71,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RunManager" selected="Application.AnimalsActionApp">
+    <configuration name="AnimalsActionApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.homework6.AnimalsActionApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="course1.homework6.*" />
   <component name="RunManager" selected="Application.EmployeeApp">
     <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
@@ -86,6 +102,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="course1.lesson2.lesson2.DemoApp" />
+      <module name="Java2007" />
+      <extension name="coverage">
+        <pattern>
     <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="course1.homework5.EmployeeApp" />
       <module name="Java2007" />
@@ -146,6 +167,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnimalsActionApp" />
         <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.CrossesZeroesApp" />
         <item itemvalue="Application.HomeworkApp3" />
@@ -163,6 +185,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1640197992542</updated>
+      <workItem from="1642632039758" duration="1597000" />
+      <workItem from="1642660379530" duration="184000" />
+      <workItem from="1642660624141" duration="517000" />
+      <workItem from="1642693023844" duration="1000" />
+      <workItem from="1642748750585" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640199585225</created>
@@ -220,6 +247,21 @@
       <option name="project" value="LOCAL" />
       <updated>1641287560857</updated>
     </task>
+    <task id="LOCAL-00009" summary="Домашка 6">
+      <created>1642629800302</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642629800302</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Домашка 6&#10;Немного переделал и добавил подсчет животин">
+      <created>1642633319844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1642633319844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <task id="LOCAL-00009" summary="course1.lesson5">
       <created>1642361398318</created>
       <option name="number" value="00009" />
@@ -252,6 +294,9 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -264,6 +309,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="RELOAD_CONTEXT" value="false" />
     <MESSAGE value="init" />
     <MESSAGE value="Домашка 1" />
     <MESSAGE value="Урок 2" />
@@ -271,6 +317,8 @@
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7*&#10;+ 8*" />
     <MESSAGE value="Домашка 3&#10;+ 6*, 7**&#10;+ 8***" />
+    <MESSAGE value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
+    <option name="LAST_COMMIT_MESSAGE" value="Домашка 6&#10;Немного переделал и добавил подсчет животин" />
     <MESSAGE value="course1.lesson5" />
     <option name="LAST_COMMIT_MESSAGE" value="course1.lesson5" />
   </component>
